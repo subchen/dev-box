@@ -24,3 +24,4 @@ echo "Configuring vim ..."
 rm -rf ~/.vimrc ~/.vim
 cp -rf $ROOT/root/.vimrc ~/
 cp -rf $ROOT/root/.vim   ~/
+

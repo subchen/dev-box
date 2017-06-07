@@ -352,7 +352,8 @@ let g:markdown_minlines = 100
 let g:vim_json_syntax_conceal = 0
 
 " :JsonFormat
-command! Jsonformat :execute '%!python -m json.tool'
+command! Jsonformat       :execute '%!json_reformat'
+command! JsonformatPytool :execute '%!python -m json.tool'
 
 " ------------------------------------
 "   vim-jsbeautify
