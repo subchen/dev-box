@@ -36,7 +36,7 @@ if [ -f "$(which yum)" ]; then
 elif [ -f "$(which apt-get)" ]; then
     apt_get_install_docker
 elif [ -f "$(which brew)" ]; then
-    brew install docker
+    brew cask install docker
 else
     echo "Unknown linux distribution, skipped to install docker-ce"
     exit 0
@@ -53,7 +53,6 @@ echo "Installing docker others ..."
 cp -f $ROOT/usr/local/bin/* /usr/local/bin/
 chmod +x /usr/local/bin/docker-*
 
-
 if [ "$(uname -s)" == "Darwin"]; then
     echo "Configuring bash_completion ..."
     cd /usr/local/etc/bash_completion.d
@@ -61,4 +60,3 @@ if [ "$(uname -s)" == "Darwin"]; then
     ln -s /Applications/Docker.app/Contents/Resources/etc/docker-machine.bash-completion
     ln -s /Applications/Docker.app/Contents/Resources/etc/docker-compose.bash-completion
 fi
-
