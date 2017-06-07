@@ -1,7 +1,9 @@
 # dev-box
 A development box deployer, Support macOS, CentOS or Ubuntu.
 
-## Usage
+# Usage
+
+You can edit `install.sh` to customize your installer.
 
 ```bash
 git clone https://github.com/subchen/dev-box.git
@@ -9,7 +11,7 @@ cd dev-box
 ./install.sh
 ```
 
-You can edit `install.sh` to customize your installer.
+# Configration
 
 ## HTTP/HTTPS Proxy
 
@@ -22,3 +24,12 @@ https_proxy=https://your_proxy_ip:8080/ \
 exec "$@"
 ```
 
+## SSH Key
+
+Please create your ssh private key for your dev-box
+
+```
+ssh-keygen
+
+cp -f ~/.ssh/id_rsa* ssh/root/.ssh/
+```
