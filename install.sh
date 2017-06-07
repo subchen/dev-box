@@ -30,11 +30,6 @@ function check_os_name() {
         return
     fi
 
-    if grep -q 'ID=alpine' /etc/os-release; then
-        OSNAME=alpine
-        return
-    fi
-
     echo "Unknown linux distribution"
     exit 1
 }
@@ -59,3 +54,4 @@ $ROOT/nodejs/install.sh
 $ROOT/java/get-java.sh
 $ROOT/java/get-maven.sh
 $ROOT/docker/install.sh
+
