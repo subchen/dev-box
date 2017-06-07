@@ -5,21 +5,16 @@ set -e
 ROOT=$(cd $(dirname $0); pwd)
 
 function install_vim() {
-    if [ -f "$(which vim)" ]; then
-        echo "vim has been installed"
-        return
-    fi
-
     echo "Installing vim ..."
     if [ -f "$(which yum)" ]; then
-        yum install -y vim
+        yum install -y vim ctags cscope
     elif [ -f "$(which apt-get)" ]; then
         apt-get update
-        apt-get install -y vim
+        apt-get install -y vim ctags cscope
     elif [ -f "$(which pkg)" ]; then
-        pkg install -y vim
+        pkg install -y vim ctags cscope
     elif [ -f "$(which brew)" ]; then
-        brew install vim
+        brew install vim ctags cscope
     fi
 }
 
