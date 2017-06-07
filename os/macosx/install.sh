@@ -10,6 +10,7 @@ fi
 
 echo "Installing app ..."
 brew install \
+    bash-completion \
     openssh-ssl ssh-copy-id sshfs \
     git wget vim curl coreutils pcre \
     the_silver_searcher jq yajl \

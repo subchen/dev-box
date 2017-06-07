@@ -52,3 +52,13 @@ fi
 echo "Installing docker others ..."
 cp -f $ROOT/usr/local/bin/* /usr/local/bin/
 chmod +x /usr/local/bin/docker-*
+
+
+if [ "$(uname -s)" == "Darwin"]; then
+    echo "Configuring bash_completion ..."
+    cd /usr/local/etc/bash_completion.d
+    ln -s /Applications/Docker.app/Contents/Resources/etc/docker.bash-completion
+    ln -s /Applications/Docker.app/Contents/Resources/etc/docker-machine.bash-completion
+    ln -s /Applications/Docker.app/Contents/Resources/etc/docker-compose.bash-completion
+fi
+
