@@ -1,0 +1,2 @@
+#!/bin/sh
+exec docker container inspect --format='{{.NetworkSettings.IPAddress}}' "$@"

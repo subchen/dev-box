@@ -1,0 +1,3 @@
+#!/bin/sh
+IMAGE_ID_LIST=$(docker image ls | grep '<none>' | awk '{print $3}')
+exec docker image rm $IMAGE_ID_LIST "$@"

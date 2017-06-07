@@ -1,0 +1,24 @@
+[user]
+    name = Guoqiang Chen
+    email = subchen@gmail.com
+[push]
+    default = simple
+[color]
+    ui = true
+[core]
+    editor = vim
+
+[merge]
+    tool = vimdiff
+    conflictstyle = diff3
+[mergetool]
+    prompt = false
+[mergetool "meld"]
+    cmd = meld $LOCAL $BASE $REMOTE --output=$MERGED --auto-merge
+
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+
+[alias]
+    diff-so-fancy = "!f() { [ -z \"$GIT_PREFIX\" ] || cd \"$GIT_PREFIX\" && git diff --color \"$@\" | diff-so-fancy | less --tabs=4 -RFX; }; f"
+    show-so-fancy = "!f() { [ -z \"$GIT_PREFIX\" ] || cd \"$GIT_PREFIX\" && git show --color \"$@\" | diff-so-fancy | less --tabs=4 -RFX; }; f"
