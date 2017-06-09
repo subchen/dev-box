@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 #http://www.360doc.com/content/14/0606/16/3300331_384326124.shtml
 

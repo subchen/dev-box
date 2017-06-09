@@ -1,6 +1,4 @@
-#!/bin/bash
-
-set -e
+#!/bin/bash -e
 
 DSF_VERSION=0.11.4
 DSF_FILENAME=diff-so-fancy-${DSF_VERSION}.tar.gz

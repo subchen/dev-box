@@ -1,6 +1,4 @@
-#!/bin/bash
-
-set -e
+#!/bin/bash -e
 
 if ! type -P brew > /dev/null; then
     echo "Installing brew and brew-cask ..."

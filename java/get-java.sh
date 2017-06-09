@@ -1,6 +1,4 @@
-#!/bin/bash
-
-set -e
+#!/bin/bash -e
 
 if type -P java > /dev/null; then
     echo "java has been installed"

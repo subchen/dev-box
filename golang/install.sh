@@ -1,6 +1,4 @@
-#!/bin/bash
-
-set -e
+#!/bin/bash -e
 
 if type -P go > /dev/null; then
     echo "go has been installed"

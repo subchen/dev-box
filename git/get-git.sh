@@ -1,6 +1,4 @@
-#!/bin/bash
-
-set -e
+#!/bin/bash -e
 
 ROOT=$(cd $(dirname $0); pwd)
 

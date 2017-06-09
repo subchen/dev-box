@@ -1,6 +1,4 @@
-#!/bin/bash
-
-set -e
+#!/bin/bash -e
 
 if type -P node > /dev/null; then
     echo "nodejs has been installed"

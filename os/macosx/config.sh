@@ -1,4 +1,3 @@
-#!/bin/bash
+#!/bin/bash -e
 
-set -e
 

@@ -1,6 +1,5 @@
-#!/bin/bash
+#!/bin/bash -e
 
-set -e
 set -x
 
 if [ "$(id -u)" != "0" ]; then

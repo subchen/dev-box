@@ -1,6 +1,4 @@
-#!/bin/bash
-
-set -e
+#!/bin/bash -e
 
 if type -P mvn > /dev/null; then
     echo "maven has been installed"
