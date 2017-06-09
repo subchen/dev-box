@@ -6,14 +6,12 @@ ROOT=$(cd $(dirname $0); pwd)
 
 function install_vim() {
     echo "Installing vim ..."
-    if [ -f "$(which yum)" ]; then
+    if type -P yum > /dev/null; then
         yum install -y vim ctags cscope
-    elif [ -f "$(which apt-get)" ]; then
+    elif type -P apt-get > /dev/null; then
         apt-get update
         apt-get install -y vim ctags cscope
-    elif [ -f "$(which pkg)" ]; then
-        pkg install -y vim ctags cscope
-    elif [ -f "$(which brew)" ]; then
+    elif type -P brew > /dev/null; then
         brew install vim ctags cscope
     fi
 }

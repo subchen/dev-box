@@ -2,7 +2,7 @@
 
 set -e
 
-if [ -f "$(which mvn)" ]; then
+if type -P mvn > /dev/null; then
     echo "maven has been installed"
     exit 0
 fi

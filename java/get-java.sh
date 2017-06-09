@@ -2,7 +2,7 @@
 
 set -e
 
-if [ -f "$(which java)" ]; then
+if type -P java > /dev/null; then
     echo "java has been installed"
     exit 0
 fi

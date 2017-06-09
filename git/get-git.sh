@@ -5,20 +5,18 @@ set -e
 ROOT=$(cd $(dirname $0); pwd)
 
 function install_git() {
-    if [ -f "$(which git)" ]; then
+    if type -P git > /dev/null; then
         echo "git has been installed"
         return
     fi
 
     echo "Installing git ..."
-    if [ -f "$(which yum)" ]; then
+    if type -P yum > /dev/null; then
         yum install -y git
-    elif [ -f "$(which apt-get)" ]; then
+    elif type -P apt-get > /dev/null; then
         apt-get update
         apt-get install -y git
-    elif [ -f "$(which pkg)" ]; then
-        pkg install -y git
-    elif [ -f "$(which brew)" ]; then
+    elif type -P brew > /dev/null; then
         brew install git
     fi
 }

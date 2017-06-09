@@ -25,17 +25,17 @@ function apt_get_install_docker() {
     proxy-sh apt-get install -y docker-ce
 }
 
-if [ -f "$(which docker)" ]; then
+if type -P docker; then
     echo "docker has been installed"
     exit 0
 fi
 
 echo "Installing docker-ce ..."
-if [ -f "$(which yum)" ]; then
+if type -P yum > /dev/null; then
     yum_install_docker
-elif [ -f "$(which apt-get)" ]; then
+elif type -P apt-get > /dev/null; then
     apt_get_install_docker
-elif [ -f "$(which brew)" ]; then
+elif type -P brew > /dev/null; then
     brew cask install docker
 else
     echo "Unknown linux distribution, skipped to install docker-ce"

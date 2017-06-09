@@ -2,7 +2,7 @@
 
 set -e
 
-if [ -f "$(which go)" ]; then
+if type -P go > /dev/null; then
     echo "go has been installed"
     exit 0
 fi

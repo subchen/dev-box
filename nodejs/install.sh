@@ -2,7 +2,7 @@
 
 set -e
 
-if [ -f "$(which node)" ]; then
+if type -P node > /dev/null; then
     echo "nodejs has been installed"
     exit 0
 fi
@@ -18,3 +18,4 @@ echo "Downloading $NODE_FILENAME ..." \
  && grep $NODE_FILENAME SHASUMS256.txt | sha256sum -c \
  && tar -xzf $NODE_FILENAME -C /usr/local --strip-components=1 \
  && rm -f $NODE_FILENAME SHASUMS256.txt
+
