@@ -23,7 +23,7 @@ BUNDLE_LIST="
     ervandew/supertab
 "
 
-rm -rf $ROOT/root/.vim/bundle/*
+rm -rf $ROOT/root/.vim
 
 for bundle in $BUNDLE_LIST; do
     name=$(basename $bundle)
