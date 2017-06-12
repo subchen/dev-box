@@ -23,17 +23,11 @@ BUNDLE_LIST="
     ervandew/supertab
 "
 
-rm -rf $ROOT/root/.vim
+mkdir -p ~/.vim/bundle
 
+cd ~/.vim/bundle/
 for bundle in $BUNDLE_LIST; do
-    name=$(basename $bundle)
-    url=https://github.com/$bundle/archive/master.tar.gz
-    file=/tmp/$name.tar.gz
-
-    echo "Downloading $url ..."
-    curl -fSL $url -o $file
-    mkdir -p $ROOT/root/.vim/bundle/$name
-    tar -zxf $file -C $ROOT/root/.vim/bundle/$name --strip-components=1
-    rm -f $file
+    echo "Installing vim bundle: $bundle ..."
+    git clone https://github.com/$bundle
 done
 

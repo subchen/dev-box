@@ -13,7 +13,7 @@ elif type -P brew > /dev/null; then
 fi
 
 echo "Installing vim plugins ..."
-$ROOT/upddate_vim_plugins.sh
+$ROOT/update_vim_plugins.sh
 
 echo "Configuring vim ..."
 cp -f $ROOT/root/.vimrc ~/

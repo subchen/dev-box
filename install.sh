@@ -45,9 +45,9 @@ $ROOT/kernel/config.sh
 
 # install
 $ROOT/os/$OSNAME/install.sh
-$ROOT/vim/install.sh
 $ROOT/git/get-git.sh
 $ROOT/git/get-diff-so-fancy.sh
+$ROOT/vim/install.sh
 $ROOT/golang/install.sh
 $ROOT/nodejs/install.sh
 $ROOT/java/get-java.sh
