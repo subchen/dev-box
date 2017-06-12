@@ -49,6 +49,7 @@ set hlsearch        " Highlight search
 set incsearch       " Instant Search
 set ignorecase      " Do case in sensitive matching with
 set smartcase       " Be sensitive when there's a capital letter
+set magic           " Enable magic matching
 
 " Formatting
 set nowrap
@@ -103,6 +104,9 @@ noremap <silent> <F2> :set number!<CR>
 
 " Toggle between paste and normal: to safe pasting from keyboard
 set pastetoggle=<F11>
+
+" Fast remove highlight search
+noremap <silent> <leader>c :nohlsearch<CR>
 
 " Tab option
 noremap <silent> <leader>tn :tabnew<CR>
