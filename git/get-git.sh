@@ -10,10 +10,10 @@ function install_git() {
 
     echo "Installing git ..."
     if type -P yum > /dev/null; then
-        yum install -y git
+        yum-default install -y git
     elif type -P apt-get > /dev/null; then
-        apt-get update
-        apt-get install -y git
+        proxy-sh apt-get update
+        proxy-sh apt-get install -y git
     elif type -P brew > /dev/null; then
         brew install git
     fi

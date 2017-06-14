@@ -14,3 +14,4 @@ echo "Downloading $DSF_FILENAME ..." \
 echo "Configuring diff-so-fancy ..."
 git config --global alias.diff-so-fancy '!f() { [ -z "$GIT_PREFIX" ] || cd "$GIT_PREFIX" && git diff --color "$@" | diff-so-fancy | less --tabs=4 -RFX; }; f'
 git config --global alias.show-so-fancy '!f() { [ -z "$GIT_PREFIX" ] || cd "$GIT_PREFIX" && git show --color "$@" | diff-so-fancy | less --tabs=4 -RFX; }; f'
+
