@@ -23,7 +23,7 @@ function apt_get_install_docker() {
     proxy-sh apt-get install -y docker-ce
 }
 
-if type -P docker; then
+if type -P docker > /dev/null; then
     echo "docker has been installed"
     exit 0
 fi
@@ -58,3 +58,9 @@ if [ "$(uname -s)" == "Darwin" ]; then
     ln -s /Applications/Docker.app/Contents/Resources/etc/docker-machine.bash-completion
     ln -s /Applications/Docker.app/Contents/Resources/etc/docker-compose.bash-completion
 fi
+
+if type -P docker-compose > /dev/null; then
+    curl -fSL https://github.com/docker/compose/releases/download/1.13.0/docker-compose-$(uname -s)-$(uname -m) > /usr/local/bin/docker-compose
+    chmod +x /usr/local/bin/docker-compose
+fi
+
