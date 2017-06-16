@@ -40,7 +40,7 @@ else
     exit 0
 fi
 
-if [ "$(uname -s)" == "Linux"]; then
+if [ "$(uname -s)" == "Linux" ]; then
     echo "Starting docker-ce ..."
     systemctl daemon-reload
     systemctl enable docker.service
