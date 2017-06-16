@@ -36,6 +36,9 @@ set imcmdline
 set wildmenu                    " Show list instead of just completing
 set wildmode=list:longest,full  " Command <Tab> completion, list matches, then longest common part, then all.
 set clipboard+=unnamed          " Yanks go on clipboard instead.
+set splitright                  " Default split window on right
+set splitbelow                  " Default vsplit window on below
+set mouse=a                     " Enable mouse in all mode
 
 " Backup
 set nowritebackup
@@ -206,7 +209,7 @@ let g:NERDTreeChDirMode = 2
 let g:NERDTreeWinPos = 'left'
 let g:NERDTreeWinSize = 30
 let g:NERDTreeDirArrows = 0             " Use Arrows or '+,-,|'
-let g:NERDTreeQuitOnOpen = 1
+let g:NERDTreeQuitOnOpen = 0            " Auto close panel after open (Here we enable mouse mode, so keep it opening)
 let g:NERDTreeIgnore = [
     \ '\.pyc$', '\.pyo$',
     \ '\.obj$', '\.o$', '\.so$',
@@ -235,7 +238,8 @@ let g:NERDTreeIndicatorMapCustom = {
 let g:ctrlp_map = '<F3>'
 let g:ctrlp_working_path_mode = 'w'    " Search from the cwd
 let g:ctrlp_by_filename = 1            " Search filename, not path
-let g:ctrlp_max_files = 0              " no limit of files to scan
+let g:ctrlp_max_files = 0              " No limition for scan
+let g:ctrlp_show_hidden = 1
 let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:10,results:50'
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
@@ -278,7 +282,7 @@ if executable('ag')
     let g:ack_prg = 'ag --vimgrep --smart-case'
     let g:ack_default_options = ''
 endif
-let g:ack_autoclose = 1
+let g:ack_autoclose = 0     " Auto close panel after open (Here we enable mouse mode, so keep it opening)
 
 " Usage
 "   :Ack [options] {pattern} [{directory}]
