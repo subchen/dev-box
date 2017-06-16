@@ -48,8 +48,8 @@ $ROOT/os/$OSNAME/install.sh
 $ROOT/git/get-git.sh
 $ROOT/git/get-diff-so-fancy.sh
 $ROOT/vim/install.sh
-$ROOT/golang/install.sh
 $ROOT/python/install.sh
+$ROOT/golang/install.sh
 $ROOT/nodejs/install.sh
 $ROOT/java/get-java.sh
 $ROOT/java/get-maven.sh
