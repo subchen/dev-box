@@ -248,6 +248,11 @@ let g:ctrlp_custom_ignore = {
     \ 'file': '\v\.(exe|so|dll)$',
     \ }
 
+if executable('ag')
+    let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+    let g:ctrlp_use_caching = 0
+endif
+
 " Usage
 "   <C-P> or :CtrlP " Start to search
 "   Press <F5> to purge the cache for the current directory to get new files, remove deleted files and apply new ignore options.
