@@ -16,6 +16,7 @@ BUNDLE_LIST="
     vim-airline/vim-airline-themes
     bronson/vim-trailing-whitespace
     mbriggs/mark.vim
+    editorconfig/editorconfig-vim
     tpope/vim-markdown
     elzr/vim-json
     vim-scripts/jsbeautify

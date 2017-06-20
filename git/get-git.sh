@@ -42,7 +42,7 @@ install_git
 install_git_prompt
 
 echo "Configuring git ..."
-cp -rf $ROOT/root/.gitconfig       ~/
-cp -rf $ROOT/root/.bashrc.d/git.sh ~/.bashrc.d/
-source ~/.bashrc.d/git.sh
+cp -rf $ROOT/root/.gitconfig         ~/
+cp -rf $ROOT/root/.bashrc.d/git.bash ~/.bashrc.d/
+source ~/.bashrc.d/git.bash
 

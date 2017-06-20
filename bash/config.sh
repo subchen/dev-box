@@ -9,3 +9,4 @@ mkdir -p ~/.bashrc.d/
 
 echo -e "$(grep -v bashrc.devbox ~/.bashrc)\n\nsource ~/.bashrc.devbox\n" > ~/.bashrc
 source ~/.bashrc.devbox
+

@@ -99,6 +99,7 @@ command! Unixformat      :set filetype=unix
 command! Tospaces        :set expandtab|retab
 command! Totabs          :set noexpandtab|retab!
 
+noremap <silent> <F9> :!bash<CR>
 
 noremap <silent> <F12>e :e ~/.vimrc<CR>
 noremap <silent> <F12>r :source ~/.vimrc<CR>
@@ -181,6 +182,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'mbriggs/mark.vim'
+Plugin 'editorconfig/editorconfig-vim'
 Plugin 'tpope/vim-markdown'
 Plugin 'elzr/vim-json'
 Plugin 'vim-scripts/jsbeautify'
@@ -345,6 +347,11 @@ nmap <silent> <leader>. <Plug>MarkSearchCurrentNext
 "  <leader>/    " goto next marked work
 "  <leader>?    " goto prev marked work
 "
+
+" ------------------------------------
+"   editorconfig-vim
+" ------------------------------------
+let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 
 " ------------------------------------
 "   vim-markdown
