@@ -16,7 +16,7 @@ if [ ! -f /.dockerenv ]; then
     systemctl disable firewalld
 
     ## disable selinux
-    setenforce 0
+    setenforce 0 || true
     echo -e 'SELINUX=disabled\nSELINUXTYPE=targeted' > /etc/sysconfig/selinux
 fi
 
