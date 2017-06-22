@@ -159,6 +159,24 @@ autocmd FileType yaml     set ts=2 sts=2 sw=2
 autocmd FileType json     set ts=2 sts=2 sw=2
 autocmd FileType sh       set foldmethod=indent
 
+
+" ------------------------------------
+" ctags
+" ------------------------------------
+" Usage: Ctrl+] and Ctrl+t
+
+autocmd FileType javascript set tags=./tags;,./.js.tags;
+autocmd FileType python     set tags=./tags;,./.python.tags;
+autocmd FileType java       set tags=./tags;,./.java.tags;
+autocmd FileType go         set tags=./tags;,./.go.tags;
+
+command! CtagsClear     :execute '!rm -rf tags .*.tags'
+command! CtagsNewAll    :execute '!ctags -R'
+command! CtagsNewJs     :execute '!ag -g "" --js | grep -v ".min.js" | ctags -L - -f .js.tags'
+command! CtagsNewPython :execute '!ag -g "" --python | ctags -L - -f .python.tags'
+command! CtagsNewJava   :execute '!ag -g "" --java | ctags -L - -f .java.tags'
+command! CtagsNewGo     :execute '!ag -g "" --go | ctags -L - -f .go.tags'
+
 " ===================================
 " Bundle plugins (vundle)
 "   $ mkdir -p ~/.vim/bundle/
