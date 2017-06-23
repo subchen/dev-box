@@ -94,12 +94,12 @@ command! -bang Q q<bang>
 " :W sudo saves the file (useful for handling the permission-denied error)
 command! W w !sudo tee % > /dev/null
 
-command! Trimwhitespaces :FixWhitespace
-command! Unixformat      :set filetype=unix
-command! Tospaces        :set expandtab|retab
-command! Totabs          :set noexpandtab|retab!
+command! TrimWhitespaces :FixWhitespace
+command! UnixFormat      :set filetype=unix
+command! ToSpaces        :set expandtab|retab
+command! ToTabs          :set noexpandtab|retab!
 
-noremap <silent> <F9> :!bash<CR>
+noremap <silent> <F9> :sh<CR>
 
 noremap <silent> <F12>e :e ~/.vimrc<CR>
 noremap <silent> <F12>r :source ~/.vimrc<CR>
@@ -165,17 +165,10 @@ autocmd FileType sh       set foldmethod=indent
 " ------------------------------------
 " Usage: Ctrl+] and Ctrl+t
 
-autocmd FileType javascript set tags=./tags;,./.js.tags;
-autocmd FileType python     set tags=./tags;,./.python.tags;
-autocmd FileType java       set tags=./tags;,./.java.tags;
-autocmd FileType go         set tags=./tags;,./.go.tags;
+set tags=tags,./tags;
 
-command! CtagsClear     :execute '!rm -rf tags .*.tags'
-command! CtagsNewAll    :execute '!ctags -R'
-command! CtagsNewJs     :execute '!ag -g "" --js | grep -v ".min.js" | ctags -L - -f .js.tags'
-command! CtagsNewPython :execute '!ag -g "" --python | ctags -L - -f .python.tags'
-command! CtagsNewJava   :execute '!ag -g "" --java | ctags -L - -f .java.tags'
-command! CtagsNewGo     :execute '!ag -g "" --go | ctags -L - -f .go.tags'
+command! CtagsClean     :execute '!rm -f tags'
+command! CtagsNew       :execute '!ag -g "" --js --python --java --go | grep -v ".min.js" | ctags -L - -f tags'
 
 " ===================================
 " Bundle plugins (vundle)
@@ -349,7 +342,7 @@ colorscheme Tomorrow-Night-Eighties
 let g:airline_theme = 'tomorrow'        " Default is same with colorscheme
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 
@@ -390,15 +383,15 @@ let g:markdown_minlines = 100
 let g:vim_json_syntax_conceal = 0
 
 " :JsonFormat
-command! Jsonformat       :execute '%!json_reformat'
-command! JsonformatPytool :execute '%!python -m json.tool'
+command! JsonFormat       :execute '%!json_reformat'
+command! JsonFormatSort   :execute '%!python -m json.tool'
 
 " ------------------------------------
 "   vim-jsbeautify
 " ------------------------------------
 " :Jsformat, Jsbeautify
-command! Jsformat   :call g:Jsbeautify()<CR>
-command! Jsbeautify :call g:Jsbeautify()<CR>
+command! JsFormat   :call g:Jsbeautify()<CR>
+command! JsBeautify :call g:Jsbeautify()<CR>
 
 " ------------------------------------
 "   go-vim
