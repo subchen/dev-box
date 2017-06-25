@@ -7,7 +7,7 @@ if [ -z "$JDK_VERSION" ]; then
     exit 1
 fi
 
-if [ ! -f "/usr/local/jdk/$JDK_VERSION" ]; then
+if [ ! -d "/usr/local/jdk/$JDK_VERSION" ]; then
     echo "No JDK found: /usr/local/jdk/$JDK_VERSION"
     exit 1
 fi
