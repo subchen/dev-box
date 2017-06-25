@@ -8,6 +8,7 @@ proxy-sh apt-get install -y \
     vim tmux \
     curl wget zip unzip tree \
     git rsync \
+    ntp \
     python-software-properties software-properties-common \
     build-essential autoconf automake autotools-dev \
     yajl-tools jq \

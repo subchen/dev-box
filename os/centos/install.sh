@@ -8,6 +8,7 @@ yum-default install -y \
     bash-completion \
     git rsync \
     yajl \
+    ntp \
     yum-utils createrepo \
     make automake autoconf libtool gcc gcc-c++ cmake \
     epel-release
@@ -17,3 +18,4 @@ yum-epel install -y \
 
 yum-rpmforge install -y \
     fuse-sshfs
+
