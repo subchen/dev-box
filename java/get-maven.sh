@@ -7,7 +7,7 @@ fi
 
 MAVEN_VERSION=3.5.0
 MAVEN_FILENAME=apache-maven-${MAVEN_VERSION}-bin.tar.gz
-MAVEN_HOME=/usr/local/maven-$MAVEN_VERSION
+MAVEN_HOME=/usr/local/maven/$MAVEN_VERSION
 
 echo "Downloading maven-$MAVEN_VERSION ..." \
  && proxy-sh curl -fSL https://archive.apache.org/dist/maven/maven-${MAVEN_VERSION:0:1}/${MAVEN_VERSION}/binaries/$MAVEN_FILENAME     -o $MAVEN_FILENAME \
@@ -17,3 +17,4 @@ echo "Downloading maven-$MAVEN_VERSION ..." \
  && tar -xzf $MAVEN_FILENAME -C $MAVEN_HOME --strip-components=1 \
  && rm -f $MAVEN_FILENAME $MAVEN_FILENAME.md5 \
  && ln -sf $MAVEN_HOME/bin/mvn /usr/local/bin/mvn
+

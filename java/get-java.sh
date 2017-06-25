@@ -5,6 +5,8 @@ if type -P java > /dev/null; then
     exit 0
 fi
 
+ROOT=$(cd $(dirname $0); pwd)
+
 function yum_install_openjdk() {
     yum-default install -y java-1.8.0-openjdk-devel
 }
@@ -29,7 +31,7 @@ function install_oraclejdk() {
         ;;
     esac
 
-    JDK_HOME=/usr/local/jdk-${JDK_VERSION}
+    JDK_HOME=/usr/local/jdk/${JDK_VERSION}
 
     echo "Downloading $(basename $JDK_DOWNLOAD_URL) ..." \
      && proxy-sh curl -fSL -H "Cookie: oraclelicense=accept-securebackup-cookie" $JDK_DOWNLOAD_URL -o jdk-x64.tar.gz \
@@ -38,16 +40,10 @@ function install_oraclejdk() {
      && tar -xzf jdk-x64.tar.gz -C $JDK_HOME --strip-components=1 \
      && rm -f jdk-x64.tar.gz
 
-    echo "Creating linking ..." \
-     && ln -sf $JDK_HOME /usr/local/jdk \
-     && ln -sf /usr/local/jdk/bin/java      /usr/local/bin/java \
-     && ln -sf /usr/local/jdk/bin/javac     /usr/local/bin/javac \
-     && ln -sf /usr/local/jdk/bin/jar       /usr/local/bin/jar \
-     && ln -sf /usr/local/jdk/bin/javadoc   /usr/local/bin/javadoc \
-     && ln -sf /usr/local/jdk/bin/jps       /usr/local/bin/jps \
-     && ln -sf /usr/local/jdk/bin/jstack    /usr/local/bin/jstack \
-     && ln -sf /usr/local/jdk/bin/jmap      /usr/local/bin/jmap \
-     && ln -sf /usr/local/jdk/bin/keytool   /usr/local/bin/keytool
+    cp -f $ROOT/root/usr/local/bin/jdk-switch.sh /usr/local/bin/
+    chmod +x /usr/local/bin/jdk-switch.sh
+    jdk-switch.sh $JDK_VERSION
 }
 
 install_oraclejdk
+
