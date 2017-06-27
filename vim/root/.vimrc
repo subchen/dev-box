@@ -81,13 +81,9 @@ autocmd WinLeave * set nocursorline
 "highlight TrailingWhitespace ctermbg=Red
 "match TrailingWhitespace /\s\+$/
 
-
 " ------------------------------------
-" Key mappings
+" Commands
 " ------------------------------------
-" The default leader is '\', but many people prefer ','
-let mapleader = ','
-
 " :Q equals q to exit vim
 command! -bang Q q<bang>
 
@@ -99,12 +95,21 @@ command! UnixFormat      :set filetype=unix
 command! ToSpaces        :set expandtab|retab
 command! ToTabs          :set noexpandtab|retab!
 
-noremap <silent> <F9> :sh<CR>
+" ------------------------------------
+" Key mappings
+" ------------------------------------
+" The default leader is '\', but many people prefer ','
+let mapleader = ','
 
+" Edit and reload .vimrc
 noremap <silent> <F12>e :e ~/.vimrc<CR>
 noremap <silent> <F12>r :source ~/.vimrc<CR>
 
+" Toggle number
 noremap <silent> <F2> :set number!<CR>
+
+" Open a new shell
+noremap <silent> <F9> :sh<CR>
 
 " Toggle between paste and normal: to safe pasting from keyboard
 set pastetoggle=<F11>
@@ -121,11 +126,9 @@ noremap <silent> <leader>tn :tabnext<CR>
 "noremap <silent> <C-W>n :new<CR>
 "noremap <silent> <C-W>v :vnew<CR>
 
-" Buffers
-noremap <silent> <C-N> :bn<CR>
-noremap <silent> <C-B> :bp<CR>
-
+" ------------------------------------
 " Code folding options
+" ------------------------------------
 noremap <silent> <leader>fo :set foldenable<CR>
 noremap <silent> <leader>fc :set nofoldenable<CR>
 noremap <silent> <leader>fs :set foldmethod=syntax<CR>
@@ -159,6 +162,29 @@ autocmd FileType yaml     set ts=2 sts=2 sw=2
 autocmd FileType json     set ts=2 sts=2 sw=2
 autocmd FileType sh       set foldmethod=indent
 
+" ------------------------------------
+" Buffer
+" ------------------------------------
+fun! DeleteAllBuffersInWindow()
+    let s:curWinNr = winnr()
+    if winbufnr(s:curWinNr) == 1
+        ret
+    endif
+    let s:curBufNr = bufnr("%")
+    exe "bn"
+    let s:nextBufNr = bufnr("%")
+    while s:nextBufNr != s:curBufNr
+        exe "bn"
+        exe "bdel ".s:nextBufNr
+        let s:nextBufNr = bufnr("%")
+    endwhile
+endfun
+
+command! BufferClean        :call DeleteAllBuffersInWindow()
+
+noremap <silent> <C-N>      :bn<CR>
+noremap <silent> <C-B>      :bp<CR>
+noremap <silent> <leader>bc :call DeleteAllBuffersInWindow()<CR>
 
 " ------------------------------------
 " ctags
@@ -169,6 +195,7 @@ set tags=tags,./tags;
 
 command! CtagsClean     :execute '!rm -f tags'
 command! CtagsNew       :execute '!ag -g "" --js --python --java --go | grep -v ".min.js" | ctags -L - -f tags'
+
 
 " ===================================
 " Bundle plugins (vundle)
