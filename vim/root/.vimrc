@@ -435,7 +435,8 @@ let g:go_highlight_methods = 1
 " ------------------------------------
 "   SuperTab
 " ------------------------------------
-let g:SuperTabDefaultCompletionType = 'context'
+"let g:SuperTabDefaultCompletionType = 'context'
+let g:SuperTabDefaultCompletionType = '<C-X><C-P>'
 
 " ------------------------------------
 "   YouCompleteMe
