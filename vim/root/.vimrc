@@ -91,7 +91,7 @@ command! -bang Q q<bang>
 command! W w !sudo tee % > /dev/null
 
 command! TrimWhitespaces :FixWhitespace
-command! UnixFormat      :set filetype=unix
+command! UnixFormat      :set fileformat=unix
 command! ToSpaces        :set expandtab|retab
 command! ToTabs          :set noexpandtab|retab!
 
