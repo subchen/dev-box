@@ -7,6 +7,8 @@ function install_ruby() {
 
     echo "Installing ruby ..."
     yum-default install -y ruby ruby-devel ruby-libs rubygems rubygems-devel
+    
+    # apt-get install ruby ruby-dev
 }
 
 install_ruby
