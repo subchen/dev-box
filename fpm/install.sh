@@ -4,17 +4,17 @@ if type -P fpm > /dev/null; then
     exit 0
 fi
 
-echo "Install fpm ..."
-gem install fpm
-
 echo "Install rpm-build ..."
 if type -P yum > /dev/null; then
     yum-default install -y rpm-build
 elif type -P apt-get > /dev/null; then
-    apt-get install -y rpm-build
+    apt-get install -y rpm ruby-ffi
 elif type -P brew > /dev/null; then
     brew install rpm
 fi
+
+echo "Install fpm ..."
+gem install fpm
 
 if [ "$(uname -s)" == "Darwin" ]; then
     # install gnutar for build deb package for macOS
