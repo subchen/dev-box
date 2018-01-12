@@ -10,9 +10,8 @@ if [ -f /.dockerenv ]; then
     exit 0
 fi
 
-ROOT=$(cd $(dirname $0); pwd)
+CWD=$(cd $(dirname $0); pwd)
 
-cp -f $ROOT/dev-sysctl.conf /etc/sysctl.d/
+cp -f $CWD/config/sysctl.conf /etc/sysctl.d/
 
-sysctl -p /etc/sysctl.d/dev-sysctl.conf
-
+sysctl -p /etc/sysctl.d/sysctl.conf
