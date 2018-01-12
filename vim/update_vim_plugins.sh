@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-ROOT=$(cd $(dirname $0); pwd)
+CWD=$(cd $(dirname $0); pwd)
 
 BUNDLE_LIST="
     VundleVim/Vundle.vim@v0.10.2
@@ -41,4 +41,3 @@ for bundle in $BUNDLE_LIST; do
         git reset --hard $version
     fi
 done
-
