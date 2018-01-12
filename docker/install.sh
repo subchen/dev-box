@@ -54,9 +54,9 @@ chmod +x /usr/local/bin/docker-*
 if [ "$(uname -s)" == "Darwin" ]; then
     echo "Configuring bash_completion ..."
     cd /usr/local/etc/bash_completion.d
-    ln -s /Applications/Docker.app/Contents/Resources/etc/docker.bash-completion
-    ln -s /Applications/Docker.app/Contents/Resources/etc/docker-machine.bash-completion
-    ln -s /Applications/Docker.app/Contents/Resources/etc/docker-compose.bash-completion
+    ln -s /Applications/Docker.app/Contents/Resources/etc/docker.bash-completion .
+    ln -s /Applications/Docker.app/Contents/Resources/etc/docker-machine.bash-completion .
+    ln -s /Applications/Docker.app/Contents/Resources/etc/docker-compose.bash-completion .
 fi
 
 if type -P docker-compose > /dev/null; then
