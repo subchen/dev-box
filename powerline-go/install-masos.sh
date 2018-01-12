@@ -9,8 +9,3 @@ CWD=$(cd $(dirname $0); pwd)
 
 ## using brew
 brew install subchen/tap/powerline-go
-
-## configure bash
-mkdir -p ~/.bash/
-cp -f $CWD/powerline-go.bash ~/.bash/
-echo ". ~/.bash/powerline-go.bash" >> ~/.bashrc
