@@ -36,6 +36,9 @@ brew install subchen/tap/frep
 brew install subchen/tap/sshpass
 brew install subchen/tap/powerline-go
 
+#brew install alexandregz/MXhomebrew/bashmarks
+#brew install thefuck
+
 ###################################################
 # app
 #
@@ -109,4 +112,8 @@ mas install 566809953  # 爱壁纸HD 3.6.0
 mas install 1127253508 # Dr. Unarchiver 1.2.0
 mas install 497799835  # Xcode 9.1
 mas install 594432954  # Read CHM
+
+####################################
+# dmg
+wget https://github.com/Clipy/Clipy/releases/download/1.1.5/Clipy_1.1.5.dmg
 
