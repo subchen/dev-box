@@ -26,6 +26,7 @@ brew install ssh-copy-id
 brew install shfmt
 brew install rpm
 brew install diff-so-fancy
+brew install autojump
 
 ln -sf /usr/local/bin/gmd5sum    /usr/local/bin/md5sum
 ln -sf /usr/local/bin/gsha1sum   /usr/local/bin/sha1sum
