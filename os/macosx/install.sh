@@ -90,6 +90,8 @@ brew install autoconf
 
 brew install go
 brew install glide
+brew install dep
+brew install go-delve/delve/delve
 
 brew install node
 brew install npm
