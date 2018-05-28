@@ -37,7 +37,6 @@ brew install subchen/tap/frep
 brew install subchen/tap/sshpass
 brew install subchen/tap/powerline-go
 
-#brew install alexandregz/MXhomebrew/bashmarks
 #brew install thefuck
 
 ###################################################
@@ -57,6 +56,7 @@ brew cask install caskroom/cask/balsamiq-mockups
 brew cask install caskroom/versions/microsoft-remote-desktop-beta
 
 brew cask install caskroom/fonts/font-consolas-for-powerline
+brew cask install caskroom/fonts/font-menlo-for-powerline
 
 brew cask install caskroom/cask/itsycal
 brew cask install caskroom/cask/scroll-reverser
@@ -102,6 +102,9 @@ brew cask install caskroom/cask/jd-gui
 brew install maven
 brew install maven-completion
 
+
+# brew install asciinema
+# brew cask install caskroom/cask/licecap
 
 ####################################
 # appstore
