@@ -24,6 +24,7 @@ brew install yajl
 brew install openssl
 brew install ssh-copy-id
 brew install shfmt
+brew install devd
 brew install rpm
 brew install diff-so-fancy
 brew install autojump
