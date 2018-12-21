@@ -1,7 +1,8 @@
 # powerline-go for bash
 
 function _update_ps1() {
-    PS1="$(powerline-go -error $?)"
+    # PS1="$(powerline-go -error $?)"
+    PS1="$(powerline-go -modules ssh,cwd,perms,git,hg,jobs,exit,root -cwd-mode plain -error $?)"
 }
 
 if [ "$TERM" != "linux" ]; then
