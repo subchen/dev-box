@@ -2,7 +2,7 @@
 
 OS=$(uname -s | tr [A-Z] [a-z])
 
-GOLANG_VERSION=1.9.2
+GOLANG_VERSION=1.11.4
 GOLANG_FILENAME=go${GOLANG_VERSION}.$OS-amd64.tar.gz
 GOLANG_HOME=/usr/local/go/${GOLANG_VERSION}
 
