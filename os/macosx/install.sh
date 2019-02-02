@@ -104,6 +104,7 @@ brew install maven
 brew install maven-completion
 
 
+# brew install termtosvg
 # brew install asciinema
 # brew cask install caskroom/cask/licecap
 
