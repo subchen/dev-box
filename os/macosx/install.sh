@@ -79,7 +79,10 @@ brew install kubernetes-helm
 
 brew cask install caskroom/cask/veracrypt
 #brew cask install caskroom/cask/calibre
-brew cask install caskroom/cask/virtualbox
+
+## To install virtualbox, you may need to enable their kernel extension in
+##   System Preferences → Security & Privacy → General
+brew cask install --force caskroom/cask/virtualbox
 
 brew install packer
 brew install packer-completion
