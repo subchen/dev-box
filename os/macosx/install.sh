@@ -29,10 +29,10 @@ brew install rpm
 brew install diff-so-fancy
 brew install autojump
 
-ln -sf /usr/local/bin/gmd5sum    /usr/local/bin/md5sum
-ln -sf /usr/local/bin/gsha1sum   /usr/local/bin/sha1sum
-ln -sf /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
-ln -sf /usr/local/bin/gsha512sum /usr/local/bin/sha512sum
+#ln -sf /usr/local/bin/gmd5sum    /usr/local/bin/md5sum
+#ln -sf /usr/local/bin/gsha1sum   /usr/local/bin/sha1sum
+#ln -sf /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
+#ln -sf /usr/local/bin/gsha512sum /usr/local/bin/sha512sum
 
 brew install subchen/tap/frep
 brew install subchen/tap/sshpass
