@@ -15,6 +15,7 @@ brew install wget
 brew install tree
 brew install coreutils
 #brew install md5sha1sum
+brew install dos2unix
 brew install ossp-uuid
 brew install gnu-sed
 brew install gnu-tar
