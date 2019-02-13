@@ -226,6 +226,7 @@ Plugin 'elzr/vim-json'
 Plugin 'vim-scripts/jsbeautify'
 Plugin 'fatih/vim-go'
 Plugin 'ervandew/supertab'
+Plugin 'prabirshrestha/asyncomplete.vim'
 
 call vundle#end()
 filetype plugin indent on
