@@ -438,11 +438,10 @@ let g:go_highlight_methods = 1
 let g:SuperTabDefaultCompletionType = '<C-X><C-P>'
 
 " ------------------------------------
-"   YouCompleteMe
+"   asyncomplete.vim
 " ------------------------------------
-" Install, requires Vim 7.4.1578+
-"   $ yum install -y install automake gcc gcc-c++ kernel-devel cmake make python-devel
-"   $ cd ~/.vim/bundle/YouCompleteMe
-"   $ ./install.py --all
-"
+inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <cr>    pumvisible() ? "\<C-y>" : "\<cr>"
+
 
