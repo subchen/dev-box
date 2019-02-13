@@ -22,6 +22,7 @@ BUNDLE_LIST="
     vim-scripts/jsbeautify@0a18560
     fatih/vim-go@v1.13
     ervandew/supertab@2.1
+    prabirshrestha/asyncomplete.vim@v1.5
 "
 
 mkdir -p ~/.vim/bundle
