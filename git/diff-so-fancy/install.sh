@@ -12,5 +12,6 @@ echo "Downloading $DSF_FILENAME ..." \
  && ln -sf $DSF_HOME/diff-so-fancy /usr/local/bin/
 
 echo "Configuring diff-so-fancy ..."
-git config --global alias.diff-so-fancy '!f() { [ -z "$GIT_PREFIX" ] || cd "$GIT_PREFIX" && git diff --color "$@" | diff-so-fancy | less --tabs=4 -RFX; }; f'
-git config --global alias.show-so-fancy '!f() { [ -z "$GIT_PREFIX" ] || cd "$GIT_PREFIX" && git show --color "$@" | diff-so-fancy | less --tabs=4 -RFX; }; f'
+#git config --global alias.diff-so-fancy '!f() { [ -z "$GIT_PREFIX" ] || cd "$GIT_PREFIX" && git diff --color "$@" | diff-so-fancy | less --tabs=4 -RFX; }; f'
+#git config --global alias.show-so-fancy '!f() { [ -z "$GIT_PREFIX" ] || cd "$GIT_PREFIX" && git show --color "$@" | diff-so-fancy | less --tabs=4 -RFX; }; f'
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
