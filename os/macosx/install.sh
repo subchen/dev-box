@@ -47,7 +47,7 @@ brew install subchen/tap/powerline-go
 brew cask install caskroom/cask/google-chrome
 brew cask install caskroom/cask/iterm2
 brew cask install caskroom/cask/visual-studio-code
-brew cask install caskroom/cask/commander-one
+#brew cask install caskroom/cask/commander-one
 brew cask install caskroom/cask/evernote
 brew cask install caskroom/cask/qq
 brew cask install caskroom/cask/sogouinput
@@ -62,7 +62,7 @@ brew cask install caskroom/fonts/font-menlo-for-powerline
 
 brew cask install caskroom/cask/itsycal
 brew cask install caskroom/cask/scroll-reverser
-brew cask install caskroom/cask/karabiner-elements
+#brew cask install caskroom/cask/karabiner-elements
 
 #brew cask install caskroom/cask/intellij-idea-ce
 #brew cask install caskroom/cask/webstorm
@@ -94,16 +94,17 @@ brew install make
 brew install autoconf
 
 brew install go
-brew install glide
-brew install dep
-brew install go-delve/delve/delve
+#brew install glide
+#brew install dep
+#brew install go-delve/delve/delve
 
 brew install node
 brew install npm
 brew install yarn
 
 brew cask install caskroom/cask/java
-brew cask install caskroom/cask/jd-gui
+brew cask install caskroom/cask/luyten
+#brew cask install caskroom/cask/jd-gui
 brew install maven
 brew install maven-completion
 
