@@ -119,12 +119,12 @@ brew install mas
 
 mas signin subchen@gmail.com
 
-mas install 1144825078 # Care Master 4.8.0
-mas install 595191960  # CopyClip 1.9
-mas install 566809953  # 爱壁纸HD 3.6.0
-mas install 1127253508 # Dr. Unarchiver 1.2.0
-mas install 497799835  # Xcode 9.1
-mas install 594432954  # Read CHM
+#mas install 1144825078 # Care Master 4.8.0
+#mas install 595191960  # CopyClip 1.9
+#mas install 566809953  # 爱壁纸HD 3.6.0
+#mas install 1127253508 # Dr. Unarchiver 1.2.0
+#mas install 497799835  # Xcode 9.1
+#mas install 594432954  # Read CHM
 
 ####################################
 # dmg
