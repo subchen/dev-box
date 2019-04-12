@@ -52,7 +52,9 @@ brew cask install caskroom/cask/evernote
 brew cask install caskroom/cask/qq
 brew cask install caskroom/cask/sogouinput
 brew cask install caskroom/cask/snipaste
+brew cask install caskroom/cask/betterzip
 brew cask install caskroom/cask/meld
+
 brew cask install caskroom/cask/insomnia
 brew cask install caskroom/cask/balsamiq-mockups
 brew cask install caskroom/versions/microsoft-remote-desktop-beta
@@ -115,9 +117,9 @@ brew install maven-completion
 
 ####################################
 # appstore
-brew install mas
+#brew install mas
 
-mas signin subchen@gmail.com
+#mas signin subchen@gmail.com
 
 #mas install 1144825078 # Care Master 4.8.0
 #mas install 595191960  # CopyClip 1.9
@@ -128,5 +130,5 @@ mas signin subchen@gmail.com
 
 ####################################
 # dmg
-wget https://github.com/Clipy/Clipy/releases/download/1.1.5/Clipy_1.1.5.dmg
+wget https://github.com/Clipy/Clipy/releases/download/1.2.1/Clipy_1.2.1.dmg
 
