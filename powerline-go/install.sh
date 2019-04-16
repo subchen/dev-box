@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-VERSION=1.8.2
+VERSION=1.12.1
 
 OS=$(uname -s | tr '[A-Z]' '[a-z]')
 
