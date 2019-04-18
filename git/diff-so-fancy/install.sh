@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-DSF_VERSION=0.11.4
+DSF_VERSION=1.2.5
 DSF_FILENAME=diff-so-fancy-${DSF_VERSION}.tar.gz
 DSF_HOME=/usr/local/diff-so-fancy-${DSF_VERSION}
 
