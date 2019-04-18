@@ -27,7 +27,6 @@
     new = green bold
     whitespace = red reverse
 
-
 [merge]
     #tool = vimdiff
     tool = meld
