@@ -28,7 +28,7 @@
     whitespace = red reverse
     
 [help]
-	autocorrect = 1
+    autocorrect = 1
 
 [merge]
     #tool = vimdiff
