@@ -1,0 +1,27 @@
+#!/bin/bash -e
+
+#
+# Usage:
+#   $ findup package.json
+#   $ findup .git
+#
+
+dir=$(pwd)
+file="$1"
+
+while true; do
+    if [ "$dir" == "/" ]; then
+        dir=""
+    fi
+
+    if [ -e "$dir/$file" ]; then
+         echo "$dir/$file"
+         exit 0
+    fi
+
+    if [ "$dir" == "" ]; then
+        exit 1
+    fi
+
+    dir=$(dirname "$dir")
+done
