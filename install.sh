@@ -1,9 +1,11 @@
 #!/bin/bash -e
 
-mkdir -p $HOME/.dotfiles
+DIR="$HOME/.dev-box"
 
-if [ -d "$HOME/.dotfiles/.git" ];
-    git clone https://github.com/subchen/docker-images.git $HOME/.dotfiles
+mkdir -p $DIR
+
+if [ -d "$DIR/.git" ];
+    git clone https://github.com/subchen/docker-images.git $DIR
 else
-    cd $HOME/.dotfiles && git pull
+    cd $DIR && git pull
 fi
