@@ -18,12 +18,3 @@ echo "Creating linking ..." \
  && ln -sf $GOLANG_HOME/bin/go       /usr/local/bin/go \
  && ln -sf $GOLANG_HOME/bin/gofmt    /usr/local/bin/gofmt \
  && ln -sf $GOLANG_HOME/bin/godoc    /usr/local/bin/godoc
-
-
-mkdir -p ~/.bash
-cat > ~/.bash/golang.bash << EOF
-export GOROOT=$GOLANG_HOME
-export GOPATH=/go
-export PATH=\$GOPATH/bin:\$GOROOT/bin:\$PATH
-EOF
-echo ". ~/.bash/golang.bash" >> ~/.bashrc
