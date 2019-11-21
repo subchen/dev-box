@@ -4,7 +4,7 @@
 #
 # Lookup the script file in currently os platform
 #
-# $ sh_exec git-install.sh
+# $ sh-exec git-install.sh
 #
 # Lookup on MacOS
 #   - git-install.darwin.sh
