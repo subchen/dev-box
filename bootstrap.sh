@@ -8,6 +8,7 @@ echo "Updating git repo ..."
 function doIt() {
     rsync --exclude ".git/" \
           --exclude ".DS_Store" \
+          --exclude "os/" \
           --exclude "app/" \
           --exclude "install.sh" \
           --exclude "bootstrap.sh" \
