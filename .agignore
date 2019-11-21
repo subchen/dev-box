@@ -1,0 +1,5 @@
+*.min.js
+*.chunk.js
+
+*.pyc
+*.class
