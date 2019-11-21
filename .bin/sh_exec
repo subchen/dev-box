@@ -1,0 +1,68 @@
+#!/bin/bash -e
+
+###################################################
+#
+# Lookup the script file in currently os platform
+#
+# $ sh_exec git-install.sh
+#
+# Lookup on MacOS
+#   - git-install.darwin.sh
+#   - git-install.sh
+#
+# Lookup on CentOS
+#   - git-install.centos.sh
+#   - git-install.linux.sh
+#   - git-install.sh
+#
+###################################################
+
+filepath="$1"
+filename="${filepath%.*}"
+extension="${filepath##*.}"
+
+
+OS=$(uname -s | tr "[A-Z]" "[a-z]")
+
+
+SCRIPT_FILE=$filepath
+if [ "$OS" == "darwin" ]; then
+    # mac os
+    if [ -f "$filename.$OS.$extension" ]; then
+        SCRIPT_FILE="$filename.$OS.$extension"
+    fi
+elif [ "$OS" == "linux" ]; then
+    # linux
+    if [ -f /etc/os-release ]; then
+        # freedesktop.org and systemd
+        . /etc/os-release
+        OS=$NAME
+    elif type lsb_release >/dev/null 2>&1; then
+        # linuxbase.org
+        OS=$(lsb_release -si)
+    elif [ -f /etc/lsb-release ]; then
+        # For some versions of Debian/Ubuntu without lsb_release command
+        . /etc/lsb-release
+        OS=$DISTRIB_ID
+    elif [ -f /etc/debian_version ]; then
+        # Older Debian/Ubuntu/etc.
+        OS=Debian
+    fi
+    
+    # to lowercase
+    OS=$(echo $OS | tr "[A-Z]" "[a-z]")
+
+    if [ -f "$filename.$OS.$extension" ]; then
+        SCRIPT_FILE="$filename.$OS.$extension"
+    elif [ -f "$filename.linux.$extension" ]; then
+        SCRIPT_FILE="$filename.linux.$extension"
+    fi
+fi
+
+
+if [ -f "$SCRIPT_FILE" ]; then
+    exec bash -e $SCRIPT_FILE
+else
+    echo "ERROR: no such file: $SCRIPT_FILE"
+    exit 1
+fi
