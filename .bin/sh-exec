@@ -22,7 +22,7 @@ filename="${filepath%.*}"
 extension="${filepath##*.}"
 
 
-OS=$(uname -s | tr "[A-Z]" "[a-z]")
+OS=$(uname -s | tr [A-Z] [a-z])
 
 
 SCRIPT_FILE=$filepath
@@ -50,7 +50,7 @@ elif [ "$OS" == "linux" ]; then
     fi
     
     # to lowercase
-    OS=$(echo $OS | tr "[A-Z]" "[a-z]")
+    OS=$(echo $OS | tr [A-Z] [a-z])
 
     if [ -f "$filename.$OS.$extension" ]; then
         SCRIPT_FILE="$filename.$OS.$extension"
