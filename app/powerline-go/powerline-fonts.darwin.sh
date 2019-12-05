@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
-brew install caskroom/fonts/font-menlo-for-powerline
-#brew install caskroom/fonts/font-consolas-for-powerline
+brew install homebrew/cask-fonts/font-menlo-for-powerline
+#brew install homebrew/cask-fonts/font-consolas-for-powerline
 
 # config iterm2
 iterm2_plist=$HOME/Library/Preferences/com.googlecode.iterm2.plist
