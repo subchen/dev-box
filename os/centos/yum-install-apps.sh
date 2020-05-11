@@ -14,7 +14,13 @@ yum-default install -y \
     epel-release
 
 yum-epel install -y \
-    sshpass the_silver_searcher jq
+    sshpass jq
+
+# centos 7.x
+yum-epel install -y the_silver_searcher
+
+# centos 8.x
+#yum install -y https://dl.bintray.com/subchen/yum-repo/:the_silver_searcher-2.1.0-1.el8.x86_64.rpm
 
 yum-rpmforge install -y \
     fuse-sshfs
