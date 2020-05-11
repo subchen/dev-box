@@ -63,7 +63,8 @@ brew cask install caskroom/fonts/font-consolas-for-powerline
 brew cask install caskroom/fonts/font-menlo-for-powerline
 
 brew cask install caskroom/cask/itsycal
-brew cask install caskroom/cask/scroll-reverser
+brew cask install caskroom/cask/mos
+#brew cask install caskroom/cask/scroll-reverser
 #brew cask install caskroom/cask/karabiner-elements
 
 #brew cask install caskroom/cask/intellij-idea-ce
