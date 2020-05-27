@@ -11,8 +11,8 @@ V2=$2
 
 [ "$V2" == "$V1" ] && exit 0
 
-VV=$(echo -e "$V1\n$V2" | sort -V | head -n1)
-[ "$VV" == "$V1" ] && exit 0
+MIN=$(echo -e "$V1\n$V2" | sort -V | head -n1)
+[ "$MIN" == "$V1" ] && exit 0
 
 exit 1
 
