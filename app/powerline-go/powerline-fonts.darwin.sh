@@ -8,3 +8,4 @@ iterm2_plist=$HOME/Library/Preferences/com.googlecode.iterm2.plist
 /usr/libexec/PlistBuddy -c "Set:'New Bookmarks':0:'Use Non-ASCII Font' bool true" $iterm2_plist
 /usr/libexec/PlistBuddy -c "Set:'New Bookmarks':0:'ASCII Anti Aliased' bool true" $iterm2_plist
 /usr/libexec/PlistBuddy -c "Set:'New Bookmarks':0:'Non Ascii Font' string 'MenloForPowerline-Regular 12'" $iterm2_plist
+
