@@ -2,7 +2,7 @@
 
 OS=$(uname -s | tr [A-Z] [a-z])
 
-NODE_VERSION=10.13.0
+NODE_VERSION=12.16.3
 NODE_FILENAME=node-v$NODE_VERSION-$OS-x64.tar.gz
 
 echo "Downloading $NODE_FILENAME ..." \
