@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-MAVEN_VERSION=3.5.0
+MAVEN_VERSION=3.6.3
 MAVEN_FILENAME=apache-maven-${MAVEN_VERSION}-bin.tar.gz
 MAVEN_HOME=/usr/local/maven/$MAVEN_VERSION
 
