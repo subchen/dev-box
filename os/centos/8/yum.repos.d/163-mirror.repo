@@ -22,3 +22,14 @@ baseurl=http://mirrors.163.com/centos/8/centosplus/x86_64/
 enabled=0
 gpgcheck=0
 
+[163-powertools]
+name=163-powertools
+baseurl=http://mirrors.163.com/centos/8/PowerTools/x86_64/
+enabled=0
+gpgcheck=0
+
+[163-devel]
+name=163-devel
+baseurl=http://mirrors.163.com/centos/8/Devel/x86_64/
+enabled=0
+gpgcheck=0
