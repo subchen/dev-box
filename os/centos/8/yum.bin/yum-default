@@ -1,2 +1,2 @@
 #!/bin/sh
-yum --disablerepo=* --enablerepo=base --enablerepo=updates --enablerepo=extras --enablerepo=centosplus --enablerepo=cr "$@"
+yum --disablerepo=* --enablerepo=BaseOS --enablerepo=extras --enablerepo=AppStream --enablerepo=centosplus --enablerepo=cr "$@"
