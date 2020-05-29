@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-URL_BASE=https://raw.githubusercontent.com/subchen/dev-box/master/os/centos/8
+URL_BASE=https://github.com/subchen/dev-box/raw/develop/os/centos/8
 
 curl -sfSL $URL_BASE/yum.repos.d/rpmforge.repo      -o /etc/yum.repos.d/rpmforge.repo
 curl -sfSL $URL_BASE/yum.repos.d/163-mirror.repo    -o /etc/yum.repos.d/163-mirror.repo
