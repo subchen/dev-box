@@ -5,6 +5,5 @@ yum --disablerepo=* \
     --enablerepo=centosplus \
     --enablerepo=AppStream \
     --enablerepo=PowerTools \
-    --enablerepo=Devel \
     --enablerepo=cr \
     "$@"
