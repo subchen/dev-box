@@ -1,2 +1,2 @@
 #!/bin/sh
-exec yum-default --enablerepo=epel "$@"
+yum-default --enablerepo=epel "$@"
