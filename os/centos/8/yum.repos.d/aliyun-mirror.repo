@@ -1,12 +1,12 @@
-[aliyun-base]
-name=aliyun-base
-baseurl=http://mirrors.aliyun.com/centos/8/os/x86_64/
+[aliyun-baseos]
+name=aliyun-baseos
+baseurl=http://mirrors.aliyun.com/centos/8/BaseOS/x86_64/
 enabled=0
 gpgcheck=0
 
-[aliyun-updates]
-name=aliyun-updates
-baseurl=http://mirrors.aliyun.com/centos/8/updates/x86_64/
+[aliyun-appsteam]
+name=aliyun-appsteam
+baseurl=http://mirrors.aliyun.com/centos/8/AppStream/x86_64/
 enabled=0
 gpgcheck=0
 
@@ -16,8 +16,8 @@ baseurl=http://mirrors.aliyun.com/centos/8/extras/x86_64/
 enabled=0
 gpgcheck=0
 
-[aliyun-plus]
-name=aliyun-plus
+[aliyun-centosplus]
+name=aliyun-centosplus
 baseurl=http://mirrors.aliyun.com/centos/8/centosplus/x86_64/
 enabled=0
 gpgcheck=0
