@@ -1,2 +1,2 @@
 #!/bin/sh
-exec proxy-sh yum --disablerepo=* --enablerepo=163-* "$@"
+yum --disablerepo=* --enablerepo=163-* "$@"
