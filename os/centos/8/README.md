@@ -12,4 +12,4 @@ curl -fSL $BASEURL/install-apps.sh | bash
 
 ## Repos
 
-https://pkgs.org/
+https://centos.pkgs.org/
