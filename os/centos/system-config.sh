@@ -1,7 +1,5 @@
 #!/bin/bash -e
 
-ROOT=$(cd $(dirname $0); pwd)
-
 ## encoding
 cat >> /etc/environment << EOF
 LANG=en_US.UTF-8
@@ -19,6 +17,3 @@ if [ ! -f /.dockerenv ]; then
     setenforce 0 || true
     echo -e 'SELINUX=disabled\nSELINUXTYPE=targeted' > /etc/sysconfig/selinux
 fi
-
-## yum-repo
-$ROOT/yum-repo/config.sh
