@@ -8,7 +8,7 @@ yum-default install -y \
     bash-completion \
     git rsync \
     yajl \
-    ntp \
+    chrony \
     yum-utils createrepo \
     make automake autoconf libtool gcc gcc-c++ cmake \
     epel-release
