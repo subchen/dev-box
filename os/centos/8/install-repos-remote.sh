@@ -11,3 +11,5 @@ curl -sfSL $URL_BASE/yum.bin/yum-epel     -o /usr/local/bin/yum-epel
 curl -sfSL $URL_BASE/yum.bin/yum-rpmforge -o /usr/local/bin/yum-rpmforge
 curl -sfSL $URL_BASE/yum.bin/yum-163      -o /usr/local/bin/yum-163
 curl -sfSL $URL_BASE/yum.bin/yum-aliyun   -o /usr/local/bin/yum-aliyun
+
+chmod +x /usr/local/bin/yum-*
