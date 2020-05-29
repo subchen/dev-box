@@ -37,7 +37,6 @@ brew install autojump
 
 brew install subchen/tap/frep
 brew install subchen/tap/sshpass
-brew install subchen/tap/powerline-go
 
 #brew install thefuck
 
