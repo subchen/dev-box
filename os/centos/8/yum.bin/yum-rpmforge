@@ -1,2 +1,0 @@
-#!/bin/sh
-yum-default --enablerepo=rpmforge --enablerepo=rpmforge-extras "$@"
