@@ -22,3 +22,14 @@ baseurl=http://mirrors.aliyun.com/centos/8/centosplus/x86_64/
 enabled=0
 gpgcheck=0
 
+[aliyun-powertools]
+name=aliyun-powertools
+baseurl=http://mirrors.aliyun.com/centos/8/PowerTools/x86_64/
+enabled=0
+gpgcheck=0
+
+[aliyun-devel]
+name=aliyun-devel
+baseurl=http://mirrors.aliyun.com/centos/8/Devel/x86_64/
+enabled=0
+gpgcheck=0
