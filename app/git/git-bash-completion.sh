@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-#GIT_VERSION=v2.15.1
+#GIT_VERSION=v2.28.0
 GIT_VERSION=master
 
 curl -fSL https://raw.githubusercontent.com/git/git/$GIT_VERSION/contrib/completion/git-completion.bash \
