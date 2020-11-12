@@ -1,5 +1,6 @@
 ## Plugins
 
+### Basic
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 - [Settings Sync](https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync)
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
@@ -11,9 +12,18 @@
 - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 - [json2yaml](https://marketplace.visualstudio.com/items?itemName=tuxtina.json2yaml)
+
+### Formatter
 - [Beautify](https://marketplace.visualstudio.com/items?itemName=hookyqr.beautify)
 - [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json)
 - [SQL Formatter](https://marketplace.visualstudio.com/items?itemName=cymonk.sql-formatter)
+
+### Java
+
+
+### Go
+- [Go](https://marketplace.visualstudio.com/items?itemName=golang.go)
+- [gotemplate-syntax](https://marketplace.visualstudio.com/items?itemName=casualjim.gotemplate)
 
 
 ## Preferences
