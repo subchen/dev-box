@@ -40,6 +40,12 @@
 
 ## Preferences
 
+```json
+{
+    "terminal.integrated.fontFamily": "Manaco, 'Menlo for Powerline'",
+    "terminal.integrated.scrollback": 100000
+}
+```
 
 
 ## Sync Gists
