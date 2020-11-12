@@ -7,7 +7,8 @@
 
 - Profiles > Colors
   ```
-  Blue Normal: `5e7afa`
+  Blue:
+    Normal: 5e7afa
   ```
 
 - Profiles > Text
