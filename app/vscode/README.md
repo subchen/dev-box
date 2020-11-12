@@ -11,7 +11,7 @@
 - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 - [json2yaml](https://marketplace.visualstudio.com/items?itemName=tuxtina.json2yaml)
-- [Beautify](https://marketplace.visualstudio.com/items?itemName=hookyqr.beauify)
+- [Beautify](https://marketplace.visualstudio.com/items?itemName=hookyqr.beautify)
 - [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json)
 - [SQL Formatter](https://marketplace.visualstudio.com/items?itemName=cymonk.sql-formatter)
 
