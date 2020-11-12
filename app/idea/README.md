@@ -35,4 +35,7 @@
 
 - Other Settings > Eclipse Code Formatter
 
+  ```
   [ ] Optimize Imports
+  [*] Don't format other file types by Intellij formatter
+  ```
