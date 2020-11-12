@@ -2,7 +2,7 @@
 
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 - [Settings Sync](https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync)
-- [REST Client](https://marketplace.visualstudio.com/items?itemName=homao.rest-client)
+- [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig)
 - [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
 - [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines)
