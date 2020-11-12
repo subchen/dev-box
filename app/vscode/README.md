@@ -6,7 +6,7 @@
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig)
 - [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
 - [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines)
-- [Text Marker](https://marketplace.visualstudio.com/items?itemName=Highligter)](https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-maker)
+- [Text Marker (Highligter)](https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-maker)
 - [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
 - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
