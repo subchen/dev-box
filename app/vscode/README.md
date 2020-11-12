@@ -27,7 +27,7 @@
 - [gotemplate-syntax](https://marketplace.visualstudio.com/items?itemName=casualjim.gotemplate)
 
 ### JS / Node
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Node.js Extension Pack](https://marketplace.visualstudio.com/items?itemName=waderyan.nodejs-extension-pack)
 
 ### YAML
 - [json2yaml](https://marketplace.visualstudio.com/items?itemName=tuxtina.json2yaml)
