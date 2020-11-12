@@ -23,7 +23,7 @@
 
 - Profiles > Window
   ```
-  Columns: 130, Rows: 36
+  Columns: 140, Rows: 36
   ```
 
 - Profiles > Terminal
