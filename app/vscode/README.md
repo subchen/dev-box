@@ -12,6 +12,8 @@
 - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 - [json2yaml](https://marketplace.visualstudio.com/items?itemName=tuxtina.json2yaml)
+- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+
 
 ### Formatter
 - [Beautify](https://marketplace.visualstudio.com/items?itemName=hookyqr.beautify)
@@ -19,11 +21,17 @@
 - [SQL Formatter](https://marketplace.visualstudio.com/items?itemName=cymonk.sql-formatter)
 
 ### Java
+- [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+- [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
+- [Lombok Annotation Support for VS Code](https://marketplace.visualstudio.com/items?itemName=gabrielbb.vscode-lombok)
 
 
 ### Go
 - [Go](https://marketplace.visualstudio.com/items?itemName=golang.go)
 - [gotemplate-syntax](https://marketplace.visualstudio.com/items?itemName=casualjim.gotemplate)
+
+### JS / Node
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 
 ## Preferences
