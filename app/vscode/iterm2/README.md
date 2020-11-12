@@ -1,10 +1,14 @@
 ## Perferences
 
 - Appearance > Tabs
+  ```
   [ ] Stretch tabs to fill bar
+  ```
 
 - Profiles > Colors
+  ```
   Blue Normal: `5e7afa`
+  ```
 
 - Profiles > Text
   ```
@@ -17,7 +21,11 @@
   ```
 
 - Profiles > Window
+  ```
   Columns: 130, Rows: 36
+  ```
 
 - Profiles > Terminal
+  ```
   Scrollback Buffer: [*] unlimited scrollbacl
+  ```
