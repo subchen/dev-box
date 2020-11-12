@@ -22,15 +22,37 @@
 
 - Editor > Code Style > Java
   
+  Imports:
   ```
-  import lombok.*
-  <<new line>>
-  import all other imports
-  <<new line>>
-  import java.*
-  import javax.*
-  <<new line>>
-  import static all other imports
+  Generate:
+    Class count to use import with '*': 99
+    Names count to use static import with '*': 99
+  
+  Import Layout:
+    import lombok.*
+    <<new line>>
+    import all other imports
+    <<new line>>
+    import java.*
+    import javax.*
+    <<new line>>
+    import static all other imports
+  ```
+
+  Wrapping and Braces
+  ```
+  Binary Expressions
+  - [*] Operation sign on next line
+  ```
+
+- Editor > Inspections
+
+  ```
+  Ali-Check:
+    [ ] Every class should include information of authors and date
+  
+  Spring > Spring Core > Code
+    [ ] Field injection warning
   ```
 
 - Other Settings > Eclipse Code Formatter
