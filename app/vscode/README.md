@@ -26,7 +26,7 @@
 - [Go](https://marketplace.visualstudio.com/items?itemName=golang.go)
 - [gotemplate-syntax](https://marketplace.visualstudio.com/items?itemName=casualjim.gotemplate)
 
-### JS / Node
+### Node.js
 - [Node.js Extension Pack](https://marketplace.visualstudio.com/items?itemName=waderyan.nodejs-extension-pack)
 
 ### YAML
