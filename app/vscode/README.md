@@ -29,6 +29,10 @@
 ### Node.js
 - [Node.js Extension Pack](https://marketplace.visualstudio.com/items?itemName=waderyan.nodejs-extension-pack)
 
+### Python
+- [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
+- [Better Jinja](https://marketplace.visualstudio.com/items?itemName=samuelcolvin.jinjahtml)
+
 ### YAML
 - [json2yaml](https://marketplace.visualstudio.com/items?itemName=tuxtina.json2yaml)
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
