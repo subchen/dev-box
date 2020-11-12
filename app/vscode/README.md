@@ -14,13 +14,12 @@
 - [Settings Sync](https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync)
 
 ### Formatter
-- [Beautify](https://marketplace.visualstudio.com/items?itemName=hookyqr.beautify)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json)
 - [SQL Formatter](https://marketplace.visualstudio.com/items?itemName=cymonk.sql-formatter)
 
 ### Java
 - [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
-- [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
 - [Lombok Annotation Support for VS Code](https://marketplace.visualstudio.com/items?itemName=gabrielbb.vscode-lombok)
 
 ### Go
