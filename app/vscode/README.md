@@ -1,19 +1,19 @@
 ## Plugins
 
-- vscode-icons (vscode-icons-team.vscode-icons)
-- Settings Sync (shan.code-settings-sync)
-- REST Client (homao.rest-client)
-- EditorConfig for VS Code (editorconfig.editorconfig)
-- Trailing Spaces (shardulm94.trailing-spaces)
-- Unique Lines (bibhasdn.unique-lines)
-- Text Marker (Highligter) (ryu1kn.text-maker)
-- Rainbow Brackets (2gua.rainbow-brackets)
-- indent-rainbow (oderwat.indent-rainbow)
-- Rainbow CSV (mechatroner.rainbow-csv)
-- json2yaml (tuxtina.json2yaml)
-- Beautify (hookyqr.beauify)
-- Prettify JSON (mohsen1.prettify-json)
-- SQL Formatter (cymonk.sql-formatter)
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync)
+- [REST Client](https://marketplace.visualstudio.com/items?itemName=homao.rest-client)
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig)
+- [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
+- [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines)
+- [Text Marker](https://marketplace.visualstudio.com/items?itemName=Highligter)](https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-maker)
+- [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
+- [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+- [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+- [json2yaml](https://marketplace.visualstudio.com/items?itemName=tuxtina.json2yaml)
+- [Beautify](https://marketplace.visualstudio.com/items?itemName=hookyqr.beauify)
+- [Prettify JSON](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json)
+- [SQL Formatter](https://marketplace.visualstudio.com/items?itemName=cymonk.sql-formatter)
 
 
 ## Preferences
