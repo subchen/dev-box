@@ -3,6 +3,8 @@
 - Lombok
 - Eclipse Code Formatter
 - Alibaba Java Code Guideline
+- String Manipulation
+- Grep Console
 
 ## Preferences
 
