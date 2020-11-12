@@ -39,3 +39,12 @@
   [ ] Optimize Imports
   [*] Don't format other file types by Intellij formatter
   ```
+
+- Other Settings > Grep Console
+
+  ```
+  Highlighting & Folding
+  - FATAL: Background: C80000
+  - ERROR: Background: C80000
+  - WARN:  Background: B76D08
+  ```
