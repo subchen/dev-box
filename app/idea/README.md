@@ -48,6 +48,8 @@
 - Editor > Inspections
 
   ```
+  Profile: Default IDE
+  
   Ali-Check:
     [ ] Every class should include information of authors and date
   
