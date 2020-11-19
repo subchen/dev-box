@@ -52,6 +52,7 @@
   
   Ali-Check:
     [ ] Every class should include information of authors and date
+    [ ] Magic values, except for predefined, are forbidden in coding.
   
   Spring > Spring Core > Code
     [ ] Field injection warning
