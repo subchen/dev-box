@@ -8,6 +8,23 @@
 
 ## Preferences
 
+- Appearance & Behavior > Appearance
+
+  ```
+  Tool Windows
+  [*] Show tool windows numbers
+  ```
+
+- Appearance & Behavior > Menus and Toolbars
+
+  ```
+  Touchbar
+  - Default
+    ...
+  - Debugger
+    ...
+  ```
+
 - Editor > Code Schema > General
 
   ```
