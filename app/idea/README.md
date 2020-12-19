@@ -32,7 +32,7 @@
     Identifier under caret
        [*] Forcegroud: 49474F
        [*] Backgound: B78627
-    Identifier under caret Owrite)
+    Identifier under caret (write)
        [*] Forcegroud: C6BED1
        [*] Backgound: B75F1D
   ```
