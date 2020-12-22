@@ -96,3 +96,12 @@
   - ERROR: Background: C80000
   - WARN:  Background: B76D08
   ```
+  
+## VM Options
+
+```
+-Xms4096m
+-Xmx4096m
+-XX:ReservedCodeCacheSize=1024m
+-XX:CICompilerCount=4
+```
