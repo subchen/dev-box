@@ -75,6 +75,12 @@
     [ ] Field injection warning
   ```
 
+- Build, Execution, Deployment > Compiler
+
+  ```
+  Shared build process heap size (Mbytes): 2048
+  ```
+
 - Other Settings > Eclipse Code Formatter
 
   ```
