@@ -105,4 +105,5 @@
 -Xmx4096m
 -XX:ReservedCodeCacheSize=1024m
 -XX:CICompilerCount=4
+-Xverify:none
 ```
