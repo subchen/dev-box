@@ -2,10 +2,9 @@
 
 - Lombok
 - Eclipse Code Formatter
-- Alibaba Java Code Guideline
+- Alibaba Java Code Guidelines
 - String Manipulation
 - Grep Console
-- Codata
 
 ## Preferences
 
