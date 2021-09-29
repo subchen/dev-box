@@ -26,6 +26,13 @@
     ...
   ```
 
+- Editor > General > Editor Tabs
+
+  ```
+  Appearance
+  [ ] Show tabs in one row
+  ```
+
 - Editor > Code Schema > General
 
   ```
@@ -62,6 +69,13 @@
   Binary Expressions
   - [*] Operation sign on next line
   ```
+
+- Editor > File Types
+
+  Ignored Files and Folders:
+  *.idea
+  .gradle
+  gradle*
 
 - Editor > Inspections
 
