@@ -11,6 +11,9 @@
 - Appearance & Behavior > Appearance
 
   ```
+  UI Options
+  [*] Use smaller indents in trees
+
   Tool Windows
   [*] Show tool windows numbers
   ```
