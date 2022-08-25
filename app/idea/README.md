@@ -1,7 +1,6 @@
 ## Plugins
 
-- Lombok
-- Eclipse Code Formatter
+- Adapter for Eclipse Code Formatter
 - Alibaba Java Code Guidelines
 - String Manipulation
 - Grep Console
@@ -83,9 +82,9 @@
 - Editor > File Types
 
   Ignored Files and Folders:
-  *.idea
-  .gradle
-  gradle*
+  - *.idea
+  - .gradle
+  - gradle*
 
 - Editor > Inspections
 
@@ -109,8 +108,8 @@
 - Other Settings > Eclipse Code Formatter
 
   ```
-  [ ] Optimize Imports
-  [*] Don't format other file types by Intellij formatter
+  [*] Optimize Imports
+  (o) Manual Imoort Order: `lombok;com.coupang;;java;javax;\#`
   ```
 
 - Other Settings > Grep Console
