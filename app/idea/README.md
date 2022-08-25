@@ -46,7 +46,7 @@
        [*] Forcegroud: C6BED1
        [*] Backgound: B75F1D
 
-  Edit:
+  Editor:
     Selection forground
       [*] forground: A9B7C6
 
