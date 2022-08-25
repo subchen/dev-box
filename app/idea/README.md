@@ -10,6 +10,8 @@
 - Appearance & Behavior > Appearance
 
   ```
+  [*] Use custom font, size: 16
+
   UI Options
   [*] Use smaller indents in trees
 
@@ -34,6 +36,12 @@
   [ ] Show tabs in one row
   ```
 
+- Editor > Font
+
+  ```
+  Size: 18
+  ```
+
 - Editor > Code Schema > General
 
   ```
@@ -52,6 +60,12 @@
   Search Results:
     Search result (write access)
       [*] forground: A9B7C6
+  ```
+
+- Editor > Code Schema > General
+
+  ```
+  Size: 18
   ```
 
 - Editor > Code Style > Java
@@ -81,10 +95,12 @@
 
 - Editor > File Types
 
-  Ignored Files and Folders:
-  - *.idea
-  - .gradle
-  - gradle*
+  Ignored Files and Folders
+  ```
+  *.idea
+  .gradle
+  gradle*
+  ```
 
 - Editor > Inspections
 
@@ -109,7 +125,7 @@
 
   ```
   [*] Optimize Imports
-  (o) Manual Imoort Order: `lombok;com.coupang;;java;javax;\#`
+  (o) Manual Import Order: lombok;;java;javax;\#
   ```
 
 - Other Settings > Grep Console
