@@ -97,7 +97,7 @@
     [ ] Magic values, except for predefined, are forbidden in coding.
   
   Spring > Spring Core > Code
-    [ ] Field injection warning
+    [ ] Non recommended 'field' injections
   ```
 
 - Build, Execution, Deployment > Compiler
