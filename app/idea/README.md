@@ -121,6 +121,13 @@
   Shared build process heap size (Mbytes): 2048
   ```
 
+- Build , Execution , Deployment > Debugger
+
+  ```
+  Java:
+  Reload classes after compilation: Always
+  ```
+
 - Other Settings > Eclipse Code Formatter
 
   ```
