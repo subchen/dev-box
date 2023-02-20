@@ -68,6 +68,13 @@
   Size: 18
   ```
 
+- Editor > Code Style
+
+  ```
+  General:
+  Visual guides: 80 120 140
+  ```
+
 - Editor > Code Style > Java
   
   Imports:
