@@ -1,17 +1,17 @@
 ## Plugins
 
 ### Editor
-- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+- [√] [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+- [√] [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
+- [√] [Text Marker (Highligter)](https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-marker)
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig)
-- [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
 - [Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines)
-- [Text Marker (Highligter)](https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-marker)
 - [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
 - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 
 ### Sync
-- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync)
+- [√] [Settings Sync](https://marketplace.visualstudio.com/items?itemName=shan.code-settings-sync)
 
 ### Formatter
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
@@ -38,7 +38,7 @@
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
 ### Rest
-- [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+- [√] [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
 ## AI
 - [CursorCode](https://marketplace.visualstudio.com/items?itemName=meteorstudio.cursorcode)
