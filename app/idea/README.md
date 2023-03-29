@@ -1,3 +1,5 @@
+# IDEA 2023.1
+
 ## Plugins
 
 - Adapter for Eclipse Code Formatter
@@ -150,7 +152,14 @@
   - ERROR: Background: C80000
   - WARN:  Background: B76D08
   ```
-  
+
+- Advanced Settings
+
+  ```
+  Tool Windows:
+  [*] Always show tool window header icons in the new UI
+  ```
+
 ## VM Options
 
 ```
