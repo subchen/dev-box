@@ -40,6 +40,8 @@
 ### Rest
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
+## AI
+- [CursorCode](https://marketplace.visualstudio.com/items?itemName=meteorstudio.cursorcode)
 
 ## Preferences
 
