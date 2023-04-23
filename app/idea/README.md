@@ -124,6 +124,12 @@
     [ ] Non recommended 'field' injections
   ```
 
+- Version Control > Commit
+
+  ```
+  [*] Use non-model commit interface
+  ```
+
 - Build, Execution, Deployment > Compiler
 
   ```
