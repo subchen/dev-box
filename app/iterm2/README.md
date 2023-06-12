@@ -30,3 +30,9 @@
   ```
   Scrollback Buffer: [*] unlimited scrollbacl
   ```
+
+- Profiles > Keys
+  ```
+  解决在Paste的时候，两边多出来00~和01~
+  Presets: Natural Text Editing
+  ```
