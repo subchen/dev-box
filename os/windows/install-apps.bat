@@ -27,6 +27,8 @@ scoop install openjdk8-redhat openjdk17 openjdk21 maven
 scoop install idea
 scoop install vscode
 
-https://github.com/akirco/aki-apps/
+
 scoop bucket add aki-apps https://github.com/akirco/aki-apps
 scoop install aki-apps/mouseinc
+
+
