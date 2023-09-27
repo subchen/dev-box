@@ -18,8 +18,8 @@ irm https://ghproxy.com/raw.githubusercontent.com/lzwme/scoop-proxy-cn/master/in
 // cmd
 scoop bucket add extras
 scoop bucket add java
+scoop bucket add aki https://github.com/akirco/aki-apps.git
 scoop bucket add scoopcn https://github.com/scoopcn/scoopcn.git
-
 
 scoop install aria2
 
@@ -31,8 +31,6 @@ scoop install openjdk8-redhat openjdk17 openjdk21 maven
 scoop install idea
 scoop install vscode
 
-
-scoop bucket add aki-apps https://github.com/akirco/aki-apps
-scoop install aki-apps/mouseinc
+scoop install aki/mouseinc
 
 
