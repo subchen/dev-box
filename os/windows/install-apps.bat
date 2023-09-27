@@ -4,7 +4,11 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 // offical install
 irm get.scoop.sh | iex
 
-// 国内镜像 https://github.com/lzwme/scoop-proxy-cn
+
+// 国内镜像1 https://gitee.com/glsnames/scoop-installer
+iwr -useb scoop.201704.xyz | iex
+
+// 国内镜像2 https://github.com/lzwme/scoop-proxy-cn
 irm https://ghproxy.com/raw.githubusercontent.com/lzwme/scoop-proxy-cn/master/install.ps1 | iex
 
 
