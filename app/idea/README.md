@@ -31,6 +31,14 @@
     ...
   ```
 
+ > Editor > General > Auto Import
+
+  ```
+  Java
+  [*] Add unambiguous imports on the fly
+  [*] Optimize imports on the fly
+  ```
+
 - Editor > General > Editor Tabs
 
   ```
