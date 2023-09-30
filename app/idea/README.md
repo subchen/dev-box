@@ -7,6 +7,7 @@
 - String Manipulation
 - Grep Console
 - GenerateAllSetter
+- CodeGeeX
 
 ## Preferences
 
