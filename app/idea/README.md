@@ -6,6 +6,7 @@
 - Alibaba Java Code Guidelines
 - String Manipulation
 - Grep Console
+- GenerateAllSetter
 
 ## Preferences
 
