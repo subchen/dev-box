@@ -31,7 +31,7 @@
     ...
   ```
 
- > Editor > General > Auto Import
+- Editor > General > Auto Import
 
   ```
   Java
