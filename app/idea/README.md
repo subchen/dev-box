@@ -35,6 +35,7 @@
 
   ```
   Java
+  Insert imports on paste: Always
   [*] Add unambiguous imports on the fly
   [*] Optimize imports on the fly
   ```
