@@ -36,5 +36,6 @@ scoop install vscode
 
 scoop install aki/mouseinc
 scoop install ViCrack/dev-sidecar
+scoop install extras/jd-gui
 
 
