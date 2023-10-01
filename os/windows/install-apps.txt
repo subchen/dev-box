@@ -18,16 +18,20 @@ irm https://ghproxy.com/raw.githubusercontent.com/lzwme/scoop-proxy-cn/master/in
 // buckets
 scoop bucket add extras
 scoop bucket add java
+scoop bucket add Versions
 scoop bucket add aki https://github.com/akirco/aki-apps.git
 scoop bucket add scoopcn https://github.com/scoopcn/scoopcn.git
-scoop bucket add ViCrack https://github.com/ViCrack/scoop-bucket.git
+scoop bucket add subchen https://github.com/subchen/scoop-bucket.git
 
 
 
 scoop install aria2
 
-scoop install curl openssl git 
+scoop install curl openssl git 7zip
 
+# scoop install extras/wox
+scoop install Versions/wox-beta
+scoop install everything
 
 scoop install openjdk8-redhat openjdk17 openjdk21 maven
 
@@ -35,7 +39,7 @@ scoop install idea
 scoop install vscode
 
 scoop install aki/mouseinc
-scoop install ViCrack/dev-sidecar
+scoop install subchen/dev-sidecar
 scoop install extras/jd-gui
 
 
