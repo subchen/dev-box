@@ -42,4 +42,12 @@ scoop install aki/mouseinc
 scoop install subchen/dev-sidecar
 scoop install extras/jd-gui
 
+scoop install extras/geekuninstaller
+scoop install extras/fscapture
+#scoop install extras/snipaste
+scoop install Versions/snipaste-beta
+
+
+
+
 
