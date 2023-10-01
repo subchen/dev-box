@@ -47,6 +47,9 @@ scoop install extras/fscapture
 #scoop install extras/snipaste
 scoop install Versions/snipaste-beta
 
+scoop install extras/potplayer
+scoop install extras/rapidee
+
 
 
 
