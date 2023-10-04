@@ -33,6 +33,12 @@
     ...
   ```
 
+- Appearance & Behavior > System Settings
+
+  ```
+  [ ] Reopen projects on startup
+  ```
+
 - Editor > General > Auto Import
 
   ```
