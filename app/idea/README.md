@@ -66,19 +66,19 @@
   ```
   Code:
     Identifier under caret
-       [*] Forcegroud: 49474F
+       [*] Forcegroud: 494949
        [*] Backgound: B78627
     Identifier under caret (write)
        [*] Forcegroud: C6BED1
        [*] Backgound: B75F1D
 
-  Editor:
-    Selection forground
-      [*] forground: A9B7C6
+  //Editor:
+  //  Selection forground
+  //    [*] forground: A9B7C6
 
-  Search Results:
-    Search result (write access)
-      [*] forground: A9B7C6
+  //Search Results:
+  //  Search result (write access)
+  //    [*] forground: A9B7C6
   ```
 
 - Editor > Code Schema > General
