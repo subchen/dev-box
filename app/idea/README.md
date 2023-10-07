@@ -23,16 +23,6 @@
   [*] Show tool windows numbers
   ```
 
-- Appearance & Behavior > Menus and Toolbars
-
-  ```
-  Touchbar
-  - Default
-    ...
-  - Debugger
-    ...
-  ```
-
 - Appearance & Behavior > System Settings
 
   ```
