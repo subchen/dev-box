@@ -8,6 +8,7 @@
 - Grep Console
 - GenerateAllSetter
 - CodeGeeX
+- TestMe
 
 ## Preferences
 
