@@ -82,7 +82,7 @@
 
   ```
   General:
-  Visual guides: 80 120 140
+  Visual guides: 80, 120, 140
   ```
 
 - Editor > Code Style > Java
