@@ -151,6 +151,13 @@
   Reload classes after compilation: Always
   ```
 
+- Tools > Actions on Save
+
+  ```
+  Reformat code: java,groovy,json  Changed lines
+  Optimize import: java
+  ```
+
 - Other Settings > Eclipse Code Formatter
 
   ```
