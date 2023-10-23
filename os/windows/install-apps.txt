@@ -31,7 +31,7 @@ scoop install curl openssl git 7zip
 
 # scoop install extras/wox
 scoop install Versions/wox-beta
-scoop install everything
+scoop install extras/everything
 
 scoop install openjdk8-redhat openjdk17 openjdk21 maven
 
