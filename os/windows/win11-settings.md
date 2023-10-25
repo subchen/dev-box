@@ -87,8 +87,8 @@
 
 ### 禁用无用的服务
 
-- [ ] 诊断开头的服务
-- [ ] Windows search
+- [ ] 诊断开头的服务 Diagnosic ...
+- [ ] Windows Search
 - [ ] Windows Update
 - [ ] sysMain
 
