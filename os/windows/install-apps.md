@@ -67,10 +67,13 @@ scoop install aki/mouseinc
 ```bash
 scoop install curl
 scoop install openssl
+
 scoop install java/openjdk8-redhat
 scoop install java/openjdk17
 scoop install java/openjdk21
 scoop install maven
+scoop install gradle
+
 scoop install extras/idea-ultimate
 scoop install extras/vscode
 scoop install extras/jd-gui
