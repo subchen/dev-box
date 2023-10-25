@@ -1,55 +1,63 @@
-// powershell
+// Powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-// offical install
+
+// 1. offical install
 irm get.scoop.sh | iex
 
-
-// 国内镜像1 https://gitee.com/glsnames/scoop-installer
+// 2. 国内镜像1 https://gitee.com/glsnames/scoop-installer
 iwr -useb scoop.201704.xyz | iex
 
-// 国内镜像2 https://github.com/lzwme/scoop-proxy-cn
-irm https://ghproxy.com/raw.githubusercontent.com/lzwme/scoop-proxy-cn/master/install.ps1 | iex
+// 3. 国内镜像2 https://github.com/lzwme/scoop-proxy-cn
+#irm https://ghproxy.com/raw.githubusercontent.com/lzwme/scoop-proxy-cn/master/install.ps1 | iex
 
 
 // scope 各种软件目录
 // https://rasa.github.io/scoop-directory/search
 
+// Basic
+scoop install git
+scoop install aria2
+
 // buckets
 scoop bucket add extras
+scoop bucket add sysinternals
 scoop bucket add java
 scoop bucket add Versions
 scoop bucket add aki https://github.com/akirco/aki-apps.git
 scoop bucket add scoopcn https://github.com/scoopcn/scoopcn.git
 scoop bucket add subchen https://github.com/subchen/scoop-bucket.git
 
-
-
-scoop install aria2
-
-scoop install curl openssl git 7zip
-
-# scoop install extras/wox
-scoop install Versions/wox-beta
+// Basic
+scoop install 7zip
+scoop install extras/wox
+#scoop install Versions/wox-beta
 scoop install extras/everything
 
-scoop install openjdk8-redhat openjdk17 openjdk21 maven
-
-scoop install idea
-scoop install vscode
-
-scoop install aki/mouseinc
-scoop install subchen/dev-sidecar
-scoop install extras/jd-gui
-
+// UI
 scoop install extras/geekuninstaller
+scoop install sysinternals/autoruns
 scoop install extras/fscapture
-#scoop install extras/snipaste
-scoop install Versions/snipaste-beta
+scoop install extras/snipaste
+#scoop install Versions/snipaste-beta
 
 scoop install extras/potplayer
-scoop install extras/rapidee
 
+scoop install extras/wechat
+scoop install aki/mouseinc
+
+// development
+scoop install curl
+scoop install openssl
+scoop install java/openjdk8-redhat
+scoop install java/openjdk17
+scoop install java/openjdk21
+scoop install maven
+scoop install extras/idea-ultimate
+scoop install extras/vscode
+scoop install extras/jd-gui
+scoop install subchen/dev-sidecar
+scoop install extras/rapidee
 
 
 
