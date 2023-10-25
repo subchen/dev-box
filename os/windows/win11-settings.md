@@ -46,7 +46,7 @@
 
 2. 删除资源管理器左侧 OneDrive
 ```
-方法1. 右键 onedrive  属性  选择隐藏   确定（仅将更改应用到此文件夹）
+方法1. 右键 onedrive > 属性 > 选择隐藏 > 确定（仅将更改应用到此文件夹）
 方法2. regedit > HKEY_CLASSES_ROOT\CLSID > 搜索 onedrive (多次重复下一项) > 修改 System.IsPinnedToNameSpaceTree = 0
 ```
 
@@ -78,8 +78,8 @@
   bash
 ```
 
-### Windows更新
-设置 > windows更新 > 高级选项 > 传递优化 >  允许从其他电脑下载 > 关闭
+### Windows 更新
+设置 > Windows更新 > 高级选项 > 传递优化 >  允许从其他电脑下载 > 关闭
 
 ### 隐私和安全性
 设置 > 隐私和安全性 > 常规 > 关闭全部4个选项
@@ -87,10 +87,10 @@
 
 ### 禁用无用的服务
 
-[ ] 诊断开头的服务
-[ ] Windows search
-[ ] Windows Update
-[ ] sysMain
+- [ ] 诊断开头的服务
+- [ ] Windows search
+- [ ] Windows Update
+- [ ] sysMain
 
 
 ### 关闭磁盘优化
