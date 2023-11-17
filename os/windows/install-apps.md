@@ -79,6 +79,8 @@ scoop install extras/vscode
 scoop install extras/jd-gui
 scoop install subchen/dev-sidecar
 scoop install extras/rapidee
+
+scoop install docker
 ```
 
 
